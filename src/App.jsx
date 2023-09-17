@@ -15,7 +15,7 @@ function App() {
       <Card image="src\assets\jurassic-grill.png" title="Jurassic Grill" genre="Burger" link="https://jurassicgrillchampaign.com/" map="https://maps.app.goo.gl/iKQLZ6E5xfetq3zF9" />
       <Card image="src\assets\red-lion.png" title="Red Lion" genre="Dance Bar" link="https://www.redlionchampaign.com/" map="https://maps.app.goo.gl/YvuK1bppzWyES3MC8" />
       <Card image="src\assets\latea.png" title="Latea" genre="Bubble Tea" link="http://latealounge.com/" map="https://maps.app.goo.gl/LiR5eRgeR7Zk1bDw5" />
-      <Card image="src\assets\bab-plus.png" title="Bab Plus" genre="Korean" link="http://babpluskorean.com/" map="https://maps.app.goo.gl/cgeDqpSR8qhLDG6j9" />
+      <Card image="src\assets\bab-plus.png" title="Bab Plus" genre="Korean" map="https://maps.app.goo.gl/cgeDqpSR8qhLDG6j9" />
       <Card image="src\assets\maize.png" title="Maize Mexican Grill" genre="Mexican" link="http://www.maizemexicangrill.com/" map="https://maps.app.goo.gl/txCczG3RtzSWkXfZ9" />
     </div>
   );
