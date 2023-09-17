@@ -4,22 +4,19 @@ import Card from './components/Card'
 function App() {
   return (
     <div className="container">
-      <img src="https://heroic-pixie-6d7f91.netlify.app/awning.png"/>
-      <body>
-        <h1>Food Truck Favorites</h1>
-      </body>
-      <Card image="https://pyxis.nymag.com/v1/imgs/38c/2ac/b02a093f6b846ebd1aca78b0d59c7e427a-birria-1.rsocial.w1200.jpg" title ="Birria-Landia" genre="Mexican" link="https://thebirrialandia.com/menu/" />
-      <Card image="https://res.cloudinary.com/the-infatuation/image/upload/c_fill,w_1200,ar_4:3,g_auto,f_auto/cms/reviews/mysttik-masala/banners/1561989798.42" title="Mysttik Masaala" genre="Indian" link="https://indianfoodny.com/" />
-      <Card image="https://nypost.com/wp-content/uploads/sites/2/2014/08/081114featureshalaguysbz-1.jpg?quality=75&strip=all&w=1024" title="The Halal Guys" genre="Middle Eastern" link="https://thehalalguys.com/menu/" />
-      <Card image="https://nydosas.com/wp-content/uploads/2018/07/maxresdefault-2-1024x630.jpg" title="NY Dosas" genre="Vegetarian" link="https://nydosas.com/menu/"/>
-      <Card image="https://infatuation.imgix.net/media/images/reviews/jerk-pan/banners/1561989308.8.jpg" title="Jerk Pan" genre="Jamaican" link="https://www.allmenus.com/ny/new-york/360888-jerk-pan/menu/" />
-      <Card image="https://static01.nyt.com/images/2019/09/04/dining/29hungry-tong2/merlin_159654336_783be212-7726-485e-9250-4793a743af41-jumbo.jpg" title="Tong" genre="Bangladeshi" link="https://www.facebook.com/Bangladeshistreetfoods/" />
-      <Card image="https://kingsouvlakinyc.com/wp-content/themes/king/images/location-f.jpg" title="King Souvlaki of Astoria" genre="Greek" link="https://kingsouvlakinyc.com/" />
-      <Card image="https://fastly.4sqi.net/img/general/600x600/61129566_7PLEKHNMZ-VNqzYx2jWRVZGrZ42PdPX0M-j9Ftpg8Ts.jpg" title="Ling's Sweet Mini Cakes" genre="Chinese" link="https://canalstreet.market/" />
-      <Card image="https://d3hbe0kmbam4a5.cloudfront.net/photos/67e1cdb7-bc27-4f26-8343-851bfaa7fc22.jpg" title="Uncle Gussy's" genre="Greek" link="https://unclegussys.com/menus/" />
-      <Card image="https://live.staticflickr.com/8088/8400188739_53b16c7d13_z.jpg" title="Patacon Pisao" genre="Venezuelan" link="https://unclegussys.com/menus/" />
-      <Card image="https://infatuation.imgix.net/media/images/reviews/moms-momo/banners/1606245507.888788.png" title="Mom's Mono" genre="Tibetan" link="https://www.restaurantji.com/ny/jackson-heights/moms-momo-/menu/" />
-      <Card image="https://fastly.4sqi.net/img/general/600x600/784042_29bZZHPGisHnWqyIuuXMo8D2zzW7QS6Hft7Vv15SH_I.jpg" title="Makina Cafe" genre="Ethiopian" link="https://makinacafenyc.com/" />
+      <h1>Campustown Favorites</h1>
+      <Card image="src\assets\ambar.png" title ="Ambar" genre="Indian" map="https://maps.app.goo.gl/wZx4tKtUhfsi1uLt5" />
+      <Card image="src\assets\spoon.png" title="Spoon House" genre="Korean" link="http://www.spoonhousecu.com/" map="https://maps.app.goo.gl/76WwNuGP4rxBBVD26" />
+      <Card image="src\assets\shawarma-joint.png" title="Shawarma Joint" genre="Middle Eastern" link="https://www.shawarma-joint.com/" map="https://maps.app.goo.gl/usS8V7bf81pdmxF76" />
+      <Card image="src\assets\mia-zas.png" title="Mia Za's" genre="Italian" link="http://www.miazas.com/" map="https://maps.app.goo.gl/4JXdHv2y768FYybV9" />
+      <Card image="src\assets\teamoji.png" title="Teamoji" genre="Bubble Tea" link="https://pos.chowbus.com/online-ordering/store/293" map="https://maps.app.goo.gl/jNCgFzPWBZjbbNRJ9" />
+      <Card image="src\assets\cracked.png" title="Cracked" genre="Breakfast" link="http://www.crackedongreen.com/" map="https://maps.app.goo.gl/YrmSbLg4QzNmStcv6" />
+      <Card image="src\assets\bangkok.png" title="Bangkok Thai" genre="Thai" map="https://maps.app.goo.gl/z11jum2x589sZvsQ8" />
+      <Card image="src\assets\jurassic-grill.png" title="Jurassic Grill" genre="Burger" link="https://jurassicgrillchampaign.com/" map="https://maps.app.goo.gl/iKQLZ6E5xfetq3zF9" />
+      <Card image="src\assets\red-lion.png" title="Red Lion" genre="Dance Bar" link="https://www.redlionchampaign.com/" map="https://maps.app.goo.gl/YvuK1bppzWyES3MC8" />
+      <Card image="src\assets\latea.png" title="Latea" genre="Bubble Tea" link="http://latealounge.com/" map="https://maps.app.goo.gl/LiR5eRgeR7Zk1bDw5" />
+      <Card image="src\assets\bab-plus.png" title="Bab Plus" genre="Korean" link="http://babpluskorean.com/" map="https://maps.app.goo.gl/cgeDqpSR8qhLDG6j9" />
+      <Card image="src\assets\maize.png" title="Maize Mexican Grill" genre="Mexican" link="http://www.maizemexicangrill.com/" map="https://maps.app.goo.gl/txCczG3RtzSWkXfZ9" />
     </div>
   );
 }

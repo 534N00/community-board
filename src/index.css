@@ -10,11 +10,15 @@
 }
 
 h1 {
-  color: #fff;
+  color: #ffb13b;
   font-size: 80px;
-  text-shadow: black 1px 0 10px;
+  text-shadow: rgb(36, 74, 201) 5px 0 10px;
   padding-bottom: 18px;
-  margin-left: 50px
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-left: 13%;
+  padding-right: auto;
+  word-wrap: break-word;
 }
 
 .container {
@@ -86,7 +90,8 @@ body {
   display: flex;
   place-items: center;
   min-width: 320px;
-  min-height: 100vh
+  min-height: 100vh;
+  background-color:rgb(189, 199, 233);
 }
 
 h1 {
@@ -96,18 +101,19 @@ h1 {
 
 button {
   border-radius: 8px;
-  border: 1px solid transparent;
-  padding: .6em 1.2em;
+  border: 2px solid transparent;
+  padding: 0.6em 1.2em;
+  margin: 0.5em 0.8em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #cc0606;
+  background-color: #ffa82577 !important;
   cursor: pointer;
   transition: border-color .25s
 }
 
 button:hover {
-  border-color: #646cff
+  border-color: #646cff;
 }
 
 button:focus,button:focus-visible {
