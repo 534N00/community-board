@@ -28,7 +28,7 @@ Added conditional to avoid presenting button links when website's to a restauran
 
 Here's a walkthrough of implemented required features:
 
-<img src='https://imgur.com/a/AVOfKeS' title='Video Walkthrough' width='1910' alt='Video Walkthrough' />
+![Site Walkthrough](https://imgur.com/a/AVOfKeS.gif)
 
 GIF created with ScreenToGif.
 
