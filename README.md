@@ -1,4 +1,4 @@
-# Web Development Project 1 - *Name of App Here*
+# Web Development Project 1 - *Campustown Favorites*
 
 Submitted by: **Sean Craig**
 
@@ -28,7 +28,8 @@ Added conditional to avoid presenting button links when website's to a restauran
 
 Here's a walkthrough of implemented required features:
 
-![Site Walkthrough](https://imgur.com/a/AVOfKeS.gif)
+https://imgur.com/a/AVOfKeS
+![Site Walkthrough](https://imgur.com/a/AVOfKeS)
 
 GIF created with ScreenToGif.
 
